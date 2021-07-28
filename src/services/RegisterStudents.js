@@ -2,7 +2,7 @@ class RegisterStudents {
   constructor(validatedArgs) {}
 
   async call() {
-    /* TODO: Implementation */
+    const student = await User.create({ name: "Jane" });
   }
 }
 
